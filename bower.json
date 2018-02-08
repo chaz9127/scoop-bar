@@ -1,0 +1,18 @@
+{
+  "name": "scoop-bar",
+  "description": "",
+  "main": "",
+  "authors": [
+    "CJ <chasanid@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/chaz9127/scoop-bar",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
