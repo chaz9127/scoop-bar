@@ -1,0 +1,8 @@
+
+{
+  "directory": "vendor/assets/bower_components",
+  "ignoredDependencies": [
+    "bootstrap"
+  ],
+  "registry": "https://registry.bower.io"
+}

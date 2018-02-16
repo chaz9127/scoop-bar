@@ -9,6 +9,7 @@ gem 'activeadmin'
 
 # Plus integrations with:
 gem 'devise'
+
 gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
