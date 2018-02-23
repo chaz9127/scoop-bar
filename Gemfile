@@ -14,7 +14,6 @@ gem 'cancan' # or cancancan
 gem 'draper'
 gem 'pundit'
 gem 'angular-rails-templates', '~> 1.0.2'
-gem 'bower'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
