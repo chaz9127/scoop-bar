@@ -19,6 +19,7 @@
 //= require angular-resource
 //= require angular-route
 //= require angular-ui-router
+//= require_tree ../templates
 
 //= require angular/main-app
 

@@ -1,3 +1,21 @@
-body {
-	background-color: green;
+.wrapper, body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("http://crossfitcervus.com/wp-content/uploads/2017/07/cervus-varsity-athlete-fitness-student-stretching-flexibility-athletic-drill-practice-instruction-20.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
 }

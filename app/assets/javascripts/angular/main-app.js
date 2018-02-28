@@ -1,5 +1,6 @@
 angular
   .module('MainApp', [
+    'templates',
     'ngResource',
     'ngRoute',
     'ui.router'
@@ -16,7 +17,7 @@ angular
       state('index', {
         url: '/',
         controller: 'IndexCtrl',
-        template: '<h1>This works</h1>'
+        templateUrl: 'test.html'
       })
 
   	console.log("successful app");
