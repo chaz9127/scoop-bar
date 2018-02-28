@@ -19,6 +19,16 @@
 //= require angular-resource
 //= require angular-route
 //= require angular-ui-router
+
+//= require ./fitness_template/modernizr-2.6.2.min
+//= require ./fitness_template/jquery.easing.1.3
+//= require ./fitness_template/bootstrap.min
+//= require ./fitness_template/jquery.waypoints.min
+//= require ./fitness_template/jquery.stellar.min
+//= require ./fitness_template/hoverIntent
+//= require ./fitness_template/superfish
+//= require ./fitness_template/main
+
 //= require_tree ../templates
 
 //= require angular/main-app
