@@ -2,9 +2,9 @@
   "name": "scoop-bar",
   "private": true,
   "dependencies": {
-  	"bower": "1.8.x"
+    "bower": "1.8.x"
   },
   "scripts": {
-  	"postinstall": "bower cache clean && bower install"
+    "postinstall": "bower cache clean && bower install"
   }
 }
