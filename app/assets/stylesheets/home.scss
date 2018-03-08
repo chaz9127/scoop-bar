@@ -6,13 +6,31 @@
 	border: 2px solid white !important;
 	border-radius: 50px;
     color: white;
+    background-color: rgba(0,0,0,0);
+    display: inline-block;
+    padding: 3px 20px;
 
     &:hover {
-    	color: #4CB648;
+    	color: #4CB648 !important;
     	border-color: #4CB648 !important;
+    	background-color: rgba(0,0,0,0);
     }
 }
 
-a.btn.btn-primary {
+a.hollow-button {
+	margin-left: 20px;
+}
+
+a.btn.btn-primary, a.hollow-button {
 	text-decoration: none;
+}
+
+.vis-hidden {
+	visibility: hidden;
+}
+
+.who-is-icon {
+	color: #4CB648;
+	font-size: 60px;
+	margin-bottom: 15px;
 }

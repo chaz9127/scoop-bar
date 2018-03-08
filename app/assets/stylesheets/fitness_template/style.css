@@ -168,7 +168,7 @@ figure {
   }
 }
 .fh5co-cover .desc span {
-  display: block;
+  display: inline-block;
   margin-bottom: 25px;
   font-size: 24px;
   letter-spacing: 1px;
@@ -181,7 +181,7 @@ figure {
   color: rgba(255, 255, 255, 0.8);
 }
 .fh5co-cover .desc span a:hover, .fh5co-cover .desc span a:focus {
-  color: #fff !important;
+  color: #fff;
 }
 .fh5co-cover .desc span a.fh5co-site-name {
   padding-bottom: 2px;
