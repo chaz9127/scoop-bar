@@ -3,7 +3,8 @@ angular
     'templates',
     'ngResource',
     'ngRoute',
-    'ui.router'
+    'ui.router',
+    'duScroll'
   ]).config(mainAppConfig);
 
   mainAppConfig.$inject = ['$stateProvider', '$routeProvider', '$locationProvider', '$urlMatcherFactoryProvider'];
@@ -19,6 +20,4 @@ angular
         controller: 'IndexCtrl',
         templateUrl: 'test.html'
       })
-
-  	console.log("successful app");
   }

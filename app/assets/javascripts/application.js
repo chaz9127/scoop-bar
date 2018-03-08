@@ -19,6 +19,7 @@
 //= require angular-resource
 //= require angular-route
 //= require angular-ui-router
+//= require angular-scroll
 
 //= require ./fitness_template/modernizr-2.6.2.min
 //= require ./fitness_template/jquery.easing.1.3
