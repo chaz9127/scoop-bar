@@ -300,6 +300,8 @@ figure {
   left: 0;
   width: 100%;
   z-index: 2;
+  
+  background-position: cover;
 }
 
 .nav-header {
@@ -320,15 +322,6 @@ figure {
 }
 #fh5co-logo a {
   position: relative;
-}
-#fh5co-logo a:after {
-  position: absolute;
-  content: '';
-  top: -5px;
-  left: -9px;
-  background: #DA1212;
-  width: 10px;
-  height: 10px;
 }
 #fh5co-logo span {
   padding: 0;
@@ -606,7 +599,7 @@ figure {
 .fh5co-table,
 .fh5co-table-cell,
 .fh5co-parallax {
-  height: 500px;
+  height: 400px;
 }
 
 .fh5co-parallax {

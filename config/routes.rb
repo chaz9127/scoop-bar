@@ -8,4 +8,8 @@ Rails.application.routes.draw do
 
   root 'home#index'
 
+  resources :item, only: [:show] do
+    root to: 'item#show'
+    get '*path' => 'item#show'
+  end
 end

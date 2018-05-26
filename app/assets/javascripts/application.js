@@ -35,3 +35,4 @@
 //= require angular/main-app
 
 //= require_tree ./angular/controllers
+//= require_tree ./angular/directives

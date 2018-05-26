@@ -18,6 +18,11 @@ angular
       state('index', {
         url: '/',
         controller: 'IndexCtrl',
-        templateUrl: 'test.html'
+        templateUrl: 'initial.html'
+      }).
+      state('item', {
+        url: '/item/:id',
+        controller: 'ItemCtrl',
+        templateUrl: 'item.html'
       })
   }
