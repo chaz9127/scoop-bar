@@ -10,6 +10,16 @@ ActiveAdmin.register Item do
     actions
   end
 
+  show do
+    attributes_table do
+      row :id
+      row :name
+      row :price
+      row :created_at
+      row :updated_at
+    end
+  end
+
   filter :name
   filter :price
 
