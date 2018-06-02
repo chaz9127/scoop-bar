@@ -8,6 +8,10 @@ Rails.application.routes.draw do
 
   root 'home#index'
 
+  namespace :api do
+    resources :items, only: [:show]
+  end
+
   resources :item, only: [:show] do
     root to: 'item#show'
     get '*path' => 'item#show'

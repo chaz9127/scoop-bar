@@ -44,9 +44,9 @@
           </div>
           <div class="col-md-6 animate-box">
 				<div class="row">
-					<h2>Scoop Bar</h2>
-					<p>Price: <span class="strike-through-small">$275.00</span> <strong>$220.00</strong></p>
-					<p>Description Will go here</p>
+					<h2>{{item.name}}</h2>
+					<p>Price: <!-- <span class="strike-through-small">$275.00</span> --> <strong>{{item.price | currency}}</strong></p>
+					<p>{{item.description}}</p>
 					<p><a class="btn btn-primary" href="#">Purchase</a></p>
 				</div>
 			</div>
