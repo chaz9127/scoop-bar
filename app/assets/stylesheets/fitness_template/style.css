@@ -882,7 +882,7 @@ figure {
   }
 }
 .fh5co-blog .desc {
-  padding-left: 230px;
+  /*padding-left: 230px;*/
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog .desc {
